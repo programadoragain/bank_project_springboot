@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+.verify-account-btn{
+    padding: 15px;
+    background-color: rgb(0,100,252);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.copy-right{
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    font-size: 12px;
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

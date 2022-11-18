@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url("");
+    background-color: rgb(61, 58, 58);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    font-family: Comfortaa;
+}
+
+.card .card-title{
+    color: rgb(255, 255, 255);
+}
+
+.card .form-control{
+    margin: 10px 0px;
+    box-shadow: 0px 3px 6px black;
+}
+
+.card button{
+    background-color: #FF4E00;
+    border: 1px solid #8B2B00;
+    box-shadow: 0px 3px 6px black;
+    color: white;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.card .card-text{
+    color: white;
+}
