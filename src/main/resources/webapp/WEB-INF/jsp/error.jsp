@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="css/error.css">
+    <title>Errores</title>
+</head>
+
+<body class="d-flex align-items-center justify-content-center">
+    <!--Tarjeta de error-->
+    <div class="card col-4 alert alert-danger border border-danger">
+        <!--Titulo tarjeta-->
+        <h4 class="card-title">
+            <i class="fa fa-window-close"></i> Errores:
+        </h4>
+        <hr>
+        <!--Cuerpo tarjeta-->
+        <div class="card-body">
+            <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    quisquam pariatur placeat nulla beatae dolorem distinctio!
+            </p>
+        </div>
+        <hr>
+        <a href="/" class="btn btn-sm text-danger">
+            <i class="fa fa-arrow-alt-circle-left me-1"></i> Volver
+        </a>
+    </div>
+</body>
+</html>
