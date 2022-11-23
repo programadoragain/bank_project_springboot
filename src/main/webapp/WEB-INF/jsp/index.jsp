@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <%@ page contentType="text/html; charset=UTF-8" %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/fontawesome-free-6.2.0-web/css/all.css">

@@ -27,13 +27,6 @@ public class IndexController {
         return getPage;
     }
 
-    @GetMapping("/register")
-    public ModelAndView getRegister() {
-        ModelAndView getPage= new ModelAndView("register");
-        getPage.addObject("PageTitle", "Register");
-        return getPage;
-    }
-
     @GetMapping("/error")
     public ModelAndView getError() {
         ModelAndView getPage= new ModelAndView("error");
